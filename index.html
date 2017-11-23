@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Firebase App</title>
+</head>
+<body>
+	<button id="login" onclick="logIn()">logIn</button>
+	
+	</div>
+	<div id="main">
+		<input type="file" id="input_file" onchange="subirArchivo()">
+		<img src="" alt="" id="image" width="100px">
+		<button onclick="subirMomo()">Subir</button>
+
+		<div id="momos"></div>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBK0uLK7kjUPWcmhheaK0CUzaY6WwCJeUA",
+    authDomain: "functions-3452e.firebaseapp.com",
+    databaseURL: "https://functions-3452e.firebaseio.com",
+    projectId: "functions-3452e",
+    storageBucket: "functions-3452e.appspot.com",
+    messagingSenderId: "618137767290"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="firebase.js"></script>
+</body>
+</html>
